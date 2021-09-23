@@ -22,12 +22,12 @@ export default function Settings() {
               alt=""
             />
             <label htmlFor="fileInput">
-              <i className="settingsPPIcon far fa-user-circle"></i>
+              <i className="settingsPPIcon far fa-user-circle"></i>{" "}
             </label>
             <input
               id="fileInput"
               type="file"
-             
+              style={{ display: "none" }}
               className="settingsPPInput"
             />
           </div>

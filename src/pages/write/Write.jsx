@@ -14,12 +14,12 @@ export default function Write() {
           <label htmlFor="fileInput">
             <i className="writeIcon fas fa-plus"></i>
           </label>
-          <input id="fileInput" type="file"/>
+          <input id="fileInput" type="file" style={{ display: "none" }} />
           <input
             className="writeInput"
             placeholder="Title"
             type="text"
-           
+            autoFocus={true}
           />
         </div>
         <div className="writeFormGroup">
@@ -27,7 +27,7 @@ export default function Write() {
             className="writeInput writeText"
             placeholder="Tell your story..."
             type="text"
-          
+            autoFocus={true}
           />
         </div>
         <button className="writeSubmit" type="submit">
