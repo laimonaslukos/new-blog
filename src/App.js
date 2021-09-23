@@ -1,6 +1,7 @@
 
 import TopBar from "./components/topbar/Topbar";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
+import Single from './pages/single/Single';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
      
      <TopBar />
      <Home/> 
-   
+     <Single/>
     </div>
   );
 }
