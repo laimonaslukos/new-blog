@@ -1,3 +1,4 @@
+
 import TopBar from "./components/topbar/Topbar";
 import Home from "./pages/Home";
 
@@ -7,6 +8,7 @@ function App() {
      
      <TopBar />
      <Home/> 
+   
     </div>
   );
 }
